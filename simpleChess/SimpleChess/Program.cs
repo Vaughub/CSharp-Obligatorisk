@@ -9,8 +9,8 @@ namespace SimpleChess
         {
             Console.OutputEncoding = Encoding.UTF8;
             var board = new Board();
-            var bishop = new Bishop("LPR");
-            var rook = new Rook("TRN");
+            var bishop = new Bishop();
+            var rook = new Rook();
             board.Set("e4", bishop);
             board.Set("f7", rook);
             while (true)

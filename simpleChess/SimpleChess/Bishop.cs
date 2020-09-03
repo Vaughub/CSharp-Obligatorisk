@@ -4,7 +4,7 @@ namespace SimpleChess
 {
 	class Bishop : Piece
 	{
-		public Bishop(string symbol) : base(symbol)
+		public Bishop(string symbol = "LPR") : base(symbol)
 		{
 		}
 

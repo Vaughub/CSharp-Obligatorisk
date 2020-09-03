@@ -2,7 +2,7 @@
 {
 	class Rook : Piece
 	{
-		public Rook(string symbol) : base(symbol)
+		public Rook(string symbol = "TRN") : base(symbol)
 		{
 		}
 
